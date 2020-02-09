@@ -2,7 +2,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # install build tools and python prerequisites
-sudo apt install build-essential libssl-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev tk-dev libffi-dev
+sudo apt install build-essential libssl-dev zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev tk-dev libffi-dev -y
 
 # download and extract python
 wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tar.xz
